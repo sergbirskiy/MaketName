@@ -1,0 +1,250 @@
+    .section {
+        padding: 70px 0;
+        position: relative;
+    }
+    
+    .section-background,
+    .section-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .section-background {
+        z-index: -2;
+    }
+    
+    .section-background img {
+        height: 100%;
+    }
+    
+    .section-overlay {
+        z-index: -1;
+        background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+        opacity: 0.85;
+    }
+    
+    .section-title {}
+    
+    .section-description {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    
+    .section-hero {
+        padding: 0;
+    }
+    
+    .section-hero .section-foreground {
+        min-height: 570px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-hero .section-header {
+        padding: 16px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .section-hero .section-body {
+        padding: 32px 0;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+    
+    .section-hero .section-body .section-content {
+        max-width: 771px;
+        text-align: center;
+    }
+    
+    .section-video .section-foreground {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-video .section-body {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-video .section-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .section-team {
+        color: white;
+        text-align: center;
+    }
+    
+    .section-description-team {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .section-team-join {
+        font-weight: lighter;
+    }
+    
+    .section-expirience {
+        text-align: center;
+    }
+    
+    .section-people {
+        color: white;
+        text-align: center;
+    }
+    
+    .people-symbol {
+        font-size: 67px;
+    }
+    
+    .people-name {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    
+    .people-position {
+        font-size: 13px;
+        font-weight: lighter;
+    }
+    
+    .message {
+        width: 100%;
+    }
+    
+    .submit-title {
+        margin-bottom: 47px;
+    }
+    
+    .section-footer {
+        color: white;
+    }
+    
+    .footer-title {
+        margin-bottom: 42px;
+    }
+    
+    .work-navigation-item {}
+    
+    .section-expirience .section-description {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .column-expertise-title {
+        margin-top: 35px;
+    }
+    
+    .column-expertise-description {
+        font-weight: lighter;
+    }
+    
+    .section-title-team {
+        margin-bottom: 16px;
+    }
+    
+    .section-team-join {
+        margin-top: 70px;
+        margin-bottom: 26px;
+    }
+    
+    .work-navigation-item {
+        margin-bottom: 71px;
+    }
+    
+    .people-description {
+        font-family: 'Playfair Display', serif;
+        line-height: 25px;
+        width: 770px;
+        padding-bottom: 52px;
+    }
+    
+    .section-content-people {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .copyright {
+        color: white;
+    }
+    
+    .footer-logo {
+        width: 128px;
+    }
+    
+    .footer-description {
+        line-height: 26px;
+    }
+    
+    .hr {
+        width: 50px;
+        margin-bottom: 31px;
+    }
+    
+    .hr-hero {
+        color: #00e0d0
+    }
+    
+    .video-description {
+        font-size: 16px;
+        color: white;
+    }
+    
+    .video-button {
+        width: 100px;
+    }
+    
+    .figure-experience-icon {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    .some-content {
+        flex-grow: 1;
+        height: 200px;
+        margin: 0;
+        background-color: silver;
+    }
+    
+    .color-grey {
+        background-color: gray;
+    }
+    
+    .work-navigation-button {
+        margin-top: 90px;
+    }
+    
+    .icons-pannel {
+        display: flex;
+        flex-direction: row;
+        margin-top: 27px;
+    }
+    
+    .icons-pannel-item {
+        width: 35px;
+        height: 35px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-left: 8px;
+    }
+    
+    .footer-nav {
+        justify-content: center;
+    }
+    
+    .footer-nav {
+        padding-top: 82px;
+    }

@@ -1,0 +1,44 @@
+    .card {
+        border: 1px solid white;
+    }
+    
+    .card-title {}
+    
+    .card-image {}
+    
+    .card-image>img {}
+    
+    .card-logo {
+        margin-right: 100px;
+    }
+    
+    .card-body {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: white;
+        font-size: 14;
+        text-align: center;
+    }
+    
+    .card-name,
+    .card-position {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+    }
+    
+    .card-position {
+        font-weight: lighter;
+    }
+    
+    .on-dribble {
+        font-weight: lighter;
+        display: inline-block;
+        padding-right: 10px;
+        padding-left: 300px;
+    }
+    
+    .arrow-right {}
+    
+    .dribble-link {
+        display: flex;
+    }

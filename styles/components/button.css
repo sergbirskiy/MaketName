@@ -1,0 +1,84 @@
+.button {
+    display: inline-block;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: inherit;
+    font-family: inherit;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    width: 120px;
+    height: 40px;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-full {
+    width: 100%;
+}
+
+.button-primary {
+    color: #00e0d0;
+    background-color: transparent;
+}
+
+.button-primary:hover {
+    color: #151c22;
+    background-color: #00e0d0;
+    border-color: #151c22;
+}
+
+.button-primary-inverse {
+    color: #151c22;
+    background-color: #ffffff;
+    border-color: #151c22;
+}
+
+.button-primary-inverse:hover {
+    color: #ffffff;
+    background-color: #151c22;
+}
+
+.button-success {
+    color: #ffffff;
+    background-color: green;
+}
+
+.button-success:hover {
+    color: green;
+    background-color: #ffffff;
+    border-color: green;
+}
+
+.button-danger {
+    color: #ffffff;
+    background-color: red;
+}
+
+.button-danger:hover {
+    color: red;
+    background-color: #ffffff;
+    border-color: red;
+}
+
+.button-large {
+    padding: 16px 32px;
+}
+
+.button-small {
+    padding: 4px 8px;
+}

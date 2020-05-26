@@ -1,0 +1,53 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.row>.column {
+    padding: 10px;
+}
+
+.row-large {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -50
+}
+
+.row-large>.column {
+    padding: 50px;
+}
+
+.column-expertise {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.work-navigation {
+    text-align: center;
+}
+
+.row>.column-gallert {
+    padding: 0px;
+}
+
+.brand {
+    margin-top: 47px;
+}
+
+.row-brand {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -35px;
+    justify-content: center;
+}
+
+.row-brand>.column {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
